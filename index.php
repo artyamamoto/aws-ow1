@@ -3,8 +3,8 @@ ini_set("display_errors" , true);
 error_reporting(E_ALL);
 	echo "this is an elastic netbeans test aaa2<br />"; 
 
-$dsn = "mysql:dbname=ebdb;host=aa1d42byd0pgr7.ct6ddgfemi2m.ap-northeast-1.rds.amazonaws.com";
-$user = "ebroot";
+$dsn = "mysql:dbname=opstest1;host=ec2-54-249-134-89.ap-northeast-1.compute.amazonaws.com";
+$user = "root";
 $passwd = "ar10ban9";
 
 try {
